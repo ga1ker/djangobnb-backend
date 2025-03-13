@@ -28,10 +28,7 @@ AUTH_USER_MODEL = 'useraccount.User'
 
 SITE_ID = 1
 
-if DEBUG:
-    WEBSITE_URL = 'http://localhost:8000'
-else:
-    WEBSITE_URL = 'http://64.226.81.32:1337'
+WEBSITE_URL = 'http://localhost:8000'
 
 CHANNEL_LAYERS = {
     'default': {
